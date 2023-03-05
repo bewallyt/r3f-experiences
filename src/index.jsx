@@ -23,7 +23,7 @@ const Experiences = () => {
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.pathname}>
+    <BrowserRouter>
       <Routes>
         <Route
           key='route-to-experience-1'
