@@ -13,7 +13,7 @@ const Experiences = () => {
   return (
     <List>
       <ListItem>
-        <Link to='experiences/1'>
+        <Link to='/experiences/1'>
           <ListItemText primary='Experience 1' />
         </Link>
       </ListItem>
