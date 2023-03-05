@@ -13,7 +13,7 @@ const Experiences = () => {
   return (
     <List>
       <ListItem>
-        <Link to='/experiences/1'>
+        <Link to='/1'>
           <ListItemText primary='Experience 1' />
         </Link>
       </ListItem>
@@ -27,7 +27,7 @@ root.render(
       <Routes>
         <Route
           key='route-to-experience-1'
-          path='/experiences/1'
+          path='/1'
           element={<Experience1 />}
         />
         <Route key='home' path='/' element={<Experiences />} />
